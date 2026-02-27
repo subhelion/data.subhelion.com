@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -o errexit
+
+mkdir --parents local/data && cd $_
+
+export AWS_PROFILE=data.subhelion.com
+
+aws s3 sync . s3://data.subhelion.com

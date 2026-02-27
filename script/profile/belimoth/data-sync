@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -o errexit
+
+cd /z/belimoth/data/data.subhelion.com
+
+export AWS_PROFILE=data.subhelion.com
+
+aws s3 sync . s3://data.subhelion.com
