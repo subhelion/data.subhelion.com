@@ -3,6 +3,6 @@
 set -o errexit
 
 git remote rm                   origin
-git remote add                  origin git@github.com:subhelion/forge.subhelion.com.git
-git remote set-url --add --push origin git@github.com:subhelion/forge.subhelion.com.git
-git remote set-url --add --push origin git@github.com:belimoth/forge.subhelion.com.git
+git remote add                  origin git@github.com:subhelion/data.subhelion.com.git
+git remote set-url --add --push origin git@github.com:subhelion/data.subhelion.com.git
+git remote set-url --add --push origin git@github.com:belimoth/data.subhelion.com.git
